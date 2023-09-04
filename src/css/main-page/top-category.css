@@ -1,27 +1,27 @@
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("fonts/OpenSansRegular.woff2"), url("fonts/OpenSansRegular.woff");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("fonts/OpenSansSemiBold.woff2"), url("fonts/OpenSansSemiBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 600;
 }
 @font-face {
   font-family: "OpenSansBold";
-  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("fonts/OpenSansBold.woff2"), url("fonts/OpenSansBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 700;
 }
 @font-face {
   font-family: "PlayfairDisplayBlack";
-  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("fonts/PlayfairDisplayBlack.woff2"), url("fonts/PlayfairDisplayBlack.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 900;
@@ -134,17 +134,17 @@
 .category-link:focus {
   text-decoration: underline;
   text-underline-offset: 3px;
-  background-image: url("../../img/arrow-next-focus.svg");
+  background-image: url("img/arrow-next-focus.svg");
 }
 .category-link:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
-  background-image: url("../../img/arrow-next-hover.svg");
+  background-image: url("img/arrow-next-hover.svg");
 }
 .category-link:active {
   color: #7033AC;
   text-decoration: underline;
-  background-image: url("../../img/arrow-next-active.svg");
+  background-image: url("img/arrow-next-active.svg");
 }
 
 .category-link-arrow {
@@ -271,7 +271,7 @@
     font-size: 0;
   }
   .category-link:focus {
-    background-image: url("../../img/arrow-next-focus.svg");
+    background-image: url("img/arrow-next-focus.svg");
   }
   .category-link-icon-big-1 {
     position: absolute;

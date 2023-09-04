@@ -1,27 +1,27 @@
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("fonts/OpenSansRegular.woff2"), url("fonts/OpenSansRegular.woff");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("fonts/OpenSansSemiBold.woff2"), url("fonts/OpenSansSemiBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 600;
 }
 @font-face {
   font-family: "OpenSansBold";
-  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("fonts/OpenSansBold.woff2"), url("fonts/OpenSansBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 700;
 }
 @font-face {
   font-family: "PlayfairDisplayBlack";
-  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("fonts/PlayfairDisplayBlack.woff2"), url("fonts/PlayfairDisplayBlack.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 900;
@@ -29,7 +29,7 @@
 .new-collection {
   min-width: 1280px;
   height: 600px;
-  background-image: url("../img/new-collection-1920px.webp");
+  background-image: url("img/new-collection-1920px.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -71,7 +71,7 @@
   .new-collection {
     min-width: 1024px;
     height: 600px;
-    background-image: url("../img/new-collection-1024px.webp");
+    background-image: url("img/new-collection-1024px.webp");
   }
   .new-collection-content {
     min-width: 948px;
@@ -82,7 +82,7 @@
   .new-collection {
     min-width: 768px;
     padding-left: -36px;
-    background-image: url("../img/new-collection-768px.webp");
+    background-image: url("img/new-collection-768px.webp");
   }
   .new-collection-content {
     min-width: 660px;
@@ -93,7 +93,7 @@
     position: relative;
     min-width: 296px;
     height: 210px;
-    background-image: url("../img/new-collection-320px.webp");
+    background-image: url("img/new-collection-320px.webp");
     margin-bottom: 163px;
   }
   .new-collection-content {

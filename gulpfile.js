@@ -1,4 +1,4 @@
-const { src, dest, series, watch } = require('gulp')
+const { src, dest, series, watch, task } = require('gulp')
 const concat = require('gulp-concat')
 const del = require('del')
 const htmlMin = require('gulp-htmlmin')
@@ -7,6 +7,7 @@ const svgSprites = require('gulp-svg-sprite')
 const image = require('gulp-imagemin')
 const browserSync = require('browser-sync').create()
 const sourcemaps = require('gulp-sourcemaps')
+const ghPages = require('gulp-gh-pages');
 
 const clean = () => {
 	return del(['dist'])
@@ -214,3 +215,5 @@ watch('src/fonts/**', fonts)
 
 exports.clean = clean
 exports.default = series(clean, fonts, htmlMinify, scriptIndex, scriptCatalog, scriptCard, styles, stylesCatalog, stylesCard, images, svgSprite, watchFiles)
+
+task('deploy', () => src('./dist/**/*').pipe(ghPages()));

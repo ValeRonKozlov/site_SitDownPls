@@ -1,27 +1,27 @@
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("fonts/OpenSansRegular.woff2"), url("fonts/OpenSansRegular.woff");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("fonts/OpenSansSemiBold.woff2"), url("fonts/OpenSansSemiBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 600;
 }
 @font-face {
   font-family: "OpenSansBold";
-  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("fonts/OpenSansBold.woff2"), url("fonts/OpenSansBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 700;
 }
 @font-face {
   font-family: "PlayfairDisplayBlack";
-  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("fonts/PlayfairDisplayBlack.woff2"), url("fonts/PlayfairDisplayBlack.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 900;
@@ -56,7 +56,7 @@ a {
 img {
   max-width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 p {
@@ -187,7 +187,7 @@ p {
   width: 32px;
   height: 32px;
   background-color: transparent;
-  background-image: url("../img/arrow-next-default.svg");
+  background-image: url("img/arrow-next-default.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,7 +309,7 @@ p {
 }
 
 .check-input:checked + .custom-checkbox::before {
-  background-image: url("../img/chekbox.svg");
+  background-image: url("img/chekbox.svg");
   border: none;
 }
 

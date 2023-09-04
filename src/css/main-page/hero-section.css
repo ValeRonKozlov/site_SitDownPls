@@ -1,27 +1,27 @@
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("fonts/OpenSansRegular.woff2"), url("fonts/OpenSansRegular.woff");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("fonts/OpenSansSemiBold.woff2"), url("fonts/OpenSansSemiBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 600;
 }
 @font-face {
   font-family: "OpenSansBold";
-  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("fonts/OpenSansBold.woff2"), url("fonts/OpenSansBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 700;
 }
 @font-face {
   font-family: "PlayfairDisplayBlack";
-  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("fonts/PlayfairDisplayBlack.woff2"), url("fonts/PlayfairDisplayBlack.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 900;
@@ -57,15 +57,15 @@
 }
 
 .slide-1 {
-  background-image: url("../img/main-slide-1-1920px.webp");
+  background-image: url("img/main-slide-1-1920px.webp");
 }
 
 .slide-2 {
-  background-image: url("../img/main-slide-2-1920px.webp");
+  background-image: url("img/main-slide-2-1920px.webp");
 }
 
 .slide-3 {
-  background-image: url("../img/main-slide-3-1920px.webp");
+  background-image: url("img/main-slide-3-1920px.webp");
 }
 
 .hero-swiper-content {
@@ -100,13 +100,13 @@
     width: 1024px;
   }
   .slide-1 {
-    background-image: url("../img/main-slide-1-1024px.webp");
+    background-image: url("img/main-slide-1-1024px.webp");
   }
   .slide-2 {
-    background-image: url("../img/main-slide-2-1024px.webp");
+    background-image: url("img/main-slide-2-1024px.webp");
   }
   .slide-3 {
-    background-image: url("../img/main-slide-3-1024px.webp");
+    background-image: url("img/main-slide-3-1024px.webp");
   }
   .hero-swiper-btn {
     left: 36px;
@@ -117,13 +117,13 @@
     width: 768px;
   }
   .slide-1 {
-    background-image: url("../img/main-slide-1-768px.webp");
+    background-image: url("img/main-slide-1-768px.webp");
   }
   .slide-2 {
-    background-image: url("../img/main-slide-2-768px.webp");
+    background-image: url("img/main-slide-2-768px.webp");
   }
   .slide-3 {
-    background-image: url("../img/main-slide-3-768px.webp");
+    background-image: url("img/main-slide-3-768px.webp");
   }
   .hero-swiper-btn {
     left: 73px;
@@ -156,13 +156,13 @@
     line-height: 27px;
   }
   .slide-1 {
-    background-image: url("../img/main-slide-1-320px.webp");
+    background-image: url("img/main-slide-1-320px.webp");
   }
   .slide-2 {
-    background-image: url("../img/main-slide-2-320px.webp");
+    background-image: url("img/main-slide-2-320px.webp");
   }
   .slide-3 {
-    background-image: url("../img/main-slide-3-320px.webp");
+    background-image: url("img/main-slide-3-320px.webp");
   }
   .hero-swiper-btn {
     position: absolute;

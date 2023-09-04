@@ -1,27 +1,27 @@
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  src: local(OpenSansRegular), local(OpenSans-Regular), urfonts/OpenSansRegular.woff2"), urfonts/OpenSansRegular.woff");
   font-style: normal;
   font-display: swap;
   font-weight: 400;
 }
 @font-face {
   font-family: "OpenSansSemiBold";
-  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), urfonts/OpenSansSemiBold.woff2"), urfonts/OpenSansSemiBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 600;
 }
 @font-face {
   font-family: "OpenSansBold";
-  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  src: local("OpenSansBold"), local("OpenSans-Bold"), urfonts/OpenSansBold.woff2"), urfonts/OpenSansBold.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 700;
 }
 @font-face {
   font-family: "PlayfairDisplayBlack";
-  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), urfonts/PlayfairDisplayBlack.woff2"), urfonts/PlayfairDisplayBlack.woff");
   font-size: normal;
   font-display: swap;
   font-weight: 900;
@@ -168,18 +168,18 @@
   .modal-next-btn:focus, .modal-prev-btn:focus {
     outline: none;
     border: none;
-    background-image: url("../../img/arrow-next-focus.svg");
+    background-image: url("img/arrow-next-focus.svg");
   }
   .modal-next-btn:hover, .modal-prev-btn:hover {
-    background-image: url("../img/arrow-next-hover.svg");
+    background-image: url("img/arrow-next-hover.svg");
   }
   .modal-next-btn:active, .modal-prev-btn:active {
-    background-image: url("../img/arrow-next-active.svg");
+    background-image: url("img/arrow-next-active.svg");
   }
   .modal-next-btn:disabled, .modal-prev-btn:disabled {
     outline: none;
     border: none;
-    background-image: url("../img/arrow-next-disabled.svg");
+    background-image: url("img/arrow-next-disabled.svg");
   }
 }
 @media (max-width: 768px) {
