@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PlayfairDisplayBlack";
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 900;
+}
+.sucsess-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.sucsess-modal-active {
+  display: flex;
+}
+
+.sucsess-modal-content {
+  position: relative;
+  top: 180px;
+  margin: 0 auto;
+  width: 624px;
+  height: 421px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.sucsess-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  z-index: 100;
+}
+
+.sucsess-modal-logo {
+  position: absolute;
+  top: 28%;
+  left: 32%;
+  width: 172px;
+  height: 117px;
+  fill: #FF862F;
+}
+
+.sucsess-modal-descr {
+  text-align: center;
+  padding-top: 268px;
+  font-size: 32px;
+  line-height: 100%;
+  color: #333333;
+}
+
+@media (max-width: 1024px) {
+  .sucsess-modal-content {
+    top: 50px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .sucsess-modal-content {
+    top: 184px;
+  }
+}
+@media (max-width: 499px) {
+  .sucsess-modal-content {
+    top: 359px;
+    width: 296px;
+    height: 215px;
+  }
+  .sucsess-modal-close {
+    width: 14px;
+    height: 16px;
+    top: 14px;
+    right: 15px;
+  }
+  .sucsess-modal-logo {
+    width: 73px;
+    height: 50px;
+    left: 34%;
+  }
+  .sucsess-modal-descr {
+    padding-top: 123px;
+    width: 200px;
+    padding-left: 47px;
+    font-size: 16px;
+    line-height: 100%;
+  }
+}/*# sourceMappingURL=sucsess-modal.css.map */

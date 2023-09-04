@@ -1,0 +1,51 @@
+@import "_variables.scss";
+@import "_fonts.scss";
+
+.breadcrumbs {
+	width: 1280px;
+	margin-bottom: $gutter-second;
+}
+
+.breadcrumbs__item:not(:last-child) {
+	margin-right: 6px;	
+}
+
+.breadcrumbs__link {
+	margin-bottom: $gutter-second;
+	font-size: $text-descr;
+	line-height: 100%;
+	color: $color-grey;
+	&:focus {
+		color: $color-primary-shade;
+		background-color: $color-pink-violet;
+	}
+	&:hover {
+		color: $color-primary;
+	}
+	&:active {
+		background-color: transparent;
+		color: $color-primary-shade;
+	}
+}
+.breadcrumbs__link-colored {
+	margin-bottom: $gutter-second;
+	font-size: $text-descr;
+	line-height: 100%;
+	color: $color-primary-shade;
+}
+
+@media (max-width: 1024px) {
+	.breadcrumbs {
+		width: 952px;
+	}
+}
+@media (max-width: 768px) {
+	.breadcrumbs {
+		width: 624px;
+	}
+}
+@media (max-width: 499px) {
+	.breadcrumbs {
+		display: none;
+	}
+}

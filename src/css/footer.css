@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PlayfairDisplayBlack";
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 900;
+}
+.footer {
+  background-color: #EAEAEA;
+}
+
+.footer-content {
+  width: 1280px;
+  height: 88px;
+  padding: 24px 0;
+}
+
+.footer-left-content {
+  width: 210px;
+  flex-direction: column;
+  margin-right: 227px;
+}
+
+.footer-logo {
+  margin-bottom: 31px;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-nav {
+  padding-top: 3px;
+}
+
+.footer-item {
+  flex-direction: column;
+}
+
+.footer-link-title {
+  margin-bottom: 7px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #333333;
+  pointer-events: none;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 100%;
+  color: #999999;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.footer-link:focus {
+  background-color: #EBD1FF;
+  color: #7033AC;
+}
+.footer-link:hover {
+  color: #A65CF0;
+}
+.footer-link:active {
+  background-color: transparent;
+  color: #7033AC;
+}
+
+.footer-link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  padding: 2.5px;
+}
+.social-link:focus {
+  background-color: #C998FB;
+}
+.social-link:focus .social-icon {
+  fill: #FFFFFF;
+}
+.social-link:active {
+  background-color: transparent;
+}
+.social-link:active .social-icon {
+  fill: #7033AC;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  fill: #999999;
+}
+.social-icon:hover {
+  fill: #A65CF0;
+}
+.social-icon:active {
+  fill: #7033AC;
+}
+
+.link-list-1 {
+  margin-right: 113px;
+}
+
+.link-list-2 {
+  margin-right: 132px;
+}
+
+.link-list-3 {
+  margin-right: 145px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 1024px;
+  }
+  .footer-content {
+    padding-top: 36px;
+    width: 1024px;
+    height: 80px;
+  }
+  .footer-left-content {
+    margin-right: 8px;
+  }
+  .link-list-1 {
+    margin-right: 65px;
+  }
+  .link-list-2 {
+    margin-right: 85px;
+  }
+  .link-list-3 {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 768px;
+  }
+  .footer-content {
+    width: 628px;
+    height: 129px;
+    padding: 27px 0;
+    flex-direction: column;
+  }
+  .footer-left-content {
+    width: 100%;
+    flex-direction: row;
+    margin-right: 0;
+  }
+  .footer-logo {
+    margin-right: auto;
+  }
+  .footer-logo-link {
+    margin-right: auto;
+  }
+  .footer-logo {
+    margin-bottom: 25px;
+  }
+  .social-link:not(:last-child) {
+    margin-right: 21px;
+  }
+  .link-list-1 {
+    margin-right: 41px;
+  }
+  .link-list-2 {
+    margin-right: 47px;
+  }
+  .link-list-3 {
+    margin-right: 67px;
+  }
+}
+@media (max-width: 499px) {
+  .footer {
+    width: auto;
+    height: 353px;
+    margin-bottom: 15px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    width: 296px;
+    height: 100%;
+    padding: 0 12px;
+  }
+  .footer-left-content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 21px;
+  }
+  .footer-logo {
+    padding-top: 25px;
+    margin-right: 0;
+    margin-bottom: 21px;
+  }
+  .footer-logo-link {
+    margin-right: 0;
+  }
+  .social-link:not(:last-child) {
+    margin-right: 20px;
+  }
+  .footer-nav-list {
+    flex-wrap: wrap;
+  }
+  .footer-item:not(:last-child) {
+    margin-bottom: 27px;
+  }
+  .link-list-1 {
+    margin-right: 74px;
+  }
+  .link-list-2 {
+    margin-right: 0px;
+  }
+  .link-list-3 {
+    margin-right: 41px;
+  }
+  .link-list-4 {
+    margin-right: 0;
+  }
+  .descr-text {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=footer.css.map */

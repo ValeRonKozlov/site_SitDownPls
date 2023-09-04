@@ -1,0 +1,87 @@
+@import '../_variables.scss';
+@import '../_fonts.scss';
+// окно  после отправки формы 
+.sucsess-modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: $color-modal-bcground;
+	z-index: $zindex-modal;
+}
+.sucsess-modal-active {
+	display: flex;
+}
+.sucsess-modal-content {
+	position: relative;
+	top: 180px;
+	margin: 0 auto;
+	width: 624px;
+	height: 421px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: $color-white;
+}
+.sucsess-modal-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: transparent;
+	z-index: $zindex-modal;
+}
+.sucsess-modal-logo {
+	position: absolute;
+	top: 28%;
+	left: 32%;
+	width: 172px;
+	height: 117px;
+	fill: $color-secondary;
+}
+.sucsess-modal-descr {
+	text-align: center;
+	padding-top: 268px;
+	font-size: $title;
+	line-height: 100%;
+	color: $color-black;
+}
+
+@media (max-width: 1024px) {
+	.sucsess-modal-content {
+		top: 50px;
+		margin: 0	auto;
+	}
+}
+@media (max-width: 768px) {
+	.sucsess-modal-content {
+		top: 184px;
+	}
+}
+@media (max-width: 499px) {
+	.sucsess-modal-content {
+    top: 359px;
+		width: 296px;
+		height: 215px;
+	}
+	.sucsess-modal-close {
+		width: 14px;
+		height: 16px;
+		top: 14px;
+		right: 15px;
+	}
+	.sucsess-modal-logo {
+		width: 73px;
+		height: 50px;
+		left: 34%;
+	}
+	.sucsess-modal-descr {
+		padding-top: 123px;
+		width: 200px;
+		padding-left: 47px;
+		font-size: $main-size;
+		line-height: 100%;
+	}
+}

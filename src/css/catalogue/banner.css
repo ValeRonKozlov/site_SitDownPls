@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: local(OpenSansRegular), local(OpenSans-Regular), url("../fonts/OpenSansRegular.woff2"), url("../fonts/OpenSansRegular.woff");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local(OpenSansSemiBold), local(OpenSans-SemiBold), url("../fonts/OpenSansSemiBold.woff2"), url("../fonts/OpenSansSemiBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("OpenSansBold"), local("OpenSans-Bold"), url("../fonts/OpenSansBold.woff2"), url("../fonts/OpenSansBold.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PlayfairDisplayBlack";
+  src: local(PlayfairDisplayBlack), local(PlayfairDisplay-Black), url("../fonts/PlayfairDisplayBlack.woff2"), url("../fonts/PlayfairDisplayBlack.woff");
+  font-size: normal;
+  font-display: swap;
+  font-weight: 900;
+}
+.banner {
+  width: 296px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: #333333;
+}
+
+.banner__title {
+  padding-top: 25px;
+  padding-left: 30px;
+  font-family: "PlayfairDisplayBlack";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #D5B986;
+}
+
+.banner__descr {
+  margin-bottom: 13px;
+  padding-left: 30px;
+  width: 200px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.banner__link {
+  display: inline-block;
+  padding-left: 30px;
+  color: #A65CF0;
+  width: 107px;
+  height: 22px;
+  background-position: right center;
+  background-size: 22px;
+  transition: color 0.3s ease-in-out, text-decoretion 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+.banner__link:focus {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  background-image: url("../../img/arrow-next-focus.svg");
+}
+.banner__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  background-image: url("../../img/arrow-next-hover.svg");
+}
+.banner__link:active {
+  color: #7033AC;
+  text-decoration: underline;
+  background-image: url("../../img/arrow-next-active.svg");
+}
+.banner__link:disabled {
+  color: #7033AC;
+  text-decoration: underline;
+  background-image: url("../../img/arrow-next-disabled.svg");
+}/*# sourceMappingURL=banner.css.map */
